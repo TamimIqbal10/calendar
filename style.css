@@ -13,7 +13,7 @@
     list-style: none;
     font-size: 3em;
     height: 2.5em;
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,11 +21,11 @@
 .day{
     font-size: 2em !important;
     background-color: lightslategray !important;
-    color: bisque;
+    color: white;
 }
 .holiday{
     color: rgb(213, 1, 1);
 }
 .other{
-    background-color: lightgray !important;
+    background-color: gray !important;
 }
