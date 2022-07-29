@@ -1,0 +1,31 @@
+
+.heading{
+    text-align: center;
+    color: rgb(4, 2, 58);
+    font-size: 1.5em;
+}
+.calendar ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 1em;
+}
+.calendar li{
+    list-style: none;
+    font-size: 3em;
+    height: 2.5em;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+    font-size: 2em !important;
+    background-color: lightslategray !important;
+    color: bisque;
+}
+.holiday{
+    color: rgb(213, 1, 1);
+}
+.other{
+    background-color: lightgray !important;
+}
